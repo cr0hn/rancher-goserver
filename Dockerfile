@@ -2,9 +2,9 @@ FROM rawmind/rancher-jvm8:0.0.2
 MAINTAINER Raul Sanchez <rawmind@gmail.com>
 
 # Set environment
-ENV GOCD_VERSION=16.2.1 \
+ENV GOCD_VERSION=16.6.0 \
   GOCD_RELEASE=go-server \
-  GOCD_REVISION=3027 \
+  GOCD_REVISION=3590 \
   GOCD_HOME=/opt/go-server \
   PATH=$GOCD_HOME:$PATH
 ENV GOCD_REPO=https://download.go.cd/binaries/${GOCD_VERSION}-${GOCD_REVISION}/generic \
